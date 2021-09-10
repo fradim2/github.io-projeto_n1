@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+div,
+section,
+span,
+ul,
+li,
+a,
+header {
+  box-sizing: border-box;
+}
+/*css reset*/
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+}
+
+#menu li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+}
+
+#menu li a {
+  color: rgb(228, 238, 183);
+  text-decoration: none;
+  height: 100vh;
+}
+
+section {
+  width: 100%;
+  float: left;
+  height: 100vh;
+  position: relative;
+}
+
+#home {
+  background-image: url("https://images2.alphacoders.com/542/542730.png");
+  background-color: #8143f3;
+  background-position: 50% 50%; /* Sets reference point to scale from */
+  background-size: cover;
+}
+
+#sobre {
+  background-image: url("https://images5.alphacoders.com/666/666394.jpg");
+  background-color: #f3f043;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#produto h1 {
+  color: rgb(247, 253, 253);
+}
+
+#produto {
+  background-image: url("http://cdn30.us1.fansshare.com/image/wallpaperhd1080p/beach-full-hd-background-wallpaper-wallpaper-1990097414.jpg");
+  background-color: #d66042;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#preços h1 {
+  color: rgb(247, 253, 253);
+}
+#preços {
+  background-image: url("https://images4.alphacoders.com/837/83704.jpg");
+  background-color: #0c2c74;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#contato {
+  background-image: url("https://cdn.wallpapersafari.com/54/97/j62cZQ.jpg");
+  background-color: #1ef330;
+
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+}
